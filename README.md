@@ -1,4 +1,4 @@
-# Detect Chaos by Deep Learning
+# Detect Chaotic Time Series by Deep Learning
 機械学習を用いて時系列データのカオス性を判定する方法がいくつか提案されている. 中でも畳み込みをベースにしたアルゴリズムが大きな成果をあげている[[1]](https://www.sciencedirect.com/science/article/abs/pii/S0167278919304737). そこで今回, 畳み込みの特徴を大きく備えているFullyCNN(FCN)に関して, [[1]](https://www.sciencedirect.com/science/article/abs/pii/S0167278919304737)を実装し改良を試みた.
 
 具体的には[[1]](https://www.sciencedirect.com/science/article/abs/pii/S0167278919304737)にあるように, LogisticMapによる時系列データをFCNで学習し, LogisticMap, また汎用性を調べるためにSine-circleMapによる時系列データでテストした. 各データセットは時系列データに対し, カオス性の有無がラベリングされている. カオス性はLyapnov指数とShannonEntropyにより定義される.
