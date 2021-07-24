@@ -35,5 +35,5 @@ Prerequisitesとして以下を要求する.
 
 ## Contact
 SoSo
-- [rp0035pp@gmail.com](rp0035pp@gmail.com)
+- rp0035pp@gmail.com
 - [ホームページ](https://main.d3umo865zsgz63.amplifyapp.com/)
